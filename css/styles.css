@@ -229,7 +229,23 @@ color: var(--Black, #2C2C2C);
     line-height: 150%;
     /* 24px */
 }
+.form{
+display: flex;
+    max-width: 395px;
+   
+    align-items: center;
+    flex: 1 0 0;
 
+}
+.form-label{
+    
+}
+.form-input{
+    padding: 12px 57px 12px 12px;
+    border-radius: 30px;
+        border: 0.854px solid var(--Yellow-main, #FFE550);
+        background: var(--White, #FEFEFE);
+}
 .button-sub{
     display: inline-flex;
         padding: 11px 22px;
@@ -242,7 +258,7 @@ color: var(--Black, #2C2C2C);
         font-weight: 500;
         line-height: 150%;
         /* 19.5px */
-    
+    border: none;
     border-radius: 30px;
         background: var(--Button-green, #BBF330);
 }
