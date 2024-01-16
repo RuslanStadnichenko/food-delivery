@@ -213,6 +213,9 @@ color: var(--Black, #2C2C2C);
     /* 24px */
 }
 
+input {
+    font-family: inherit;
+}
 
 .form{
 display: flex;
@@ -223,14 +226,20 @@ display: flex;
 .form-label{
 padding-right: 32px;
 }
-
+.form-input:placeholder-shown {
+    border-color: #FFE550;
+}
 .form-input{
     width: 395px;
     padding: 12px 57px 12px 12px;
     border-radius: 30px;
-    border: 0.854px solid  #FFE550;
+    border: 0.854px solid #7EB101;
      background: #FEFEFE;
+     outline: none;
 }
+
+
+
 .button-sub{
     display: inline-flex;
     padding: 11px 22px;
@@ -245,6 +254,9 @@ padding-right: 32px;
     border: none;
     border-radius: 30px;
     background: #BBF330;
+}
+.button-sub:hover{
+    background: #FFE450;
 }
 /* FOOTER */
 
